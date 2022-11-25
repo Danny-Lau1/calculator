@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outerbody {
+    display: flex;
+    border: solid;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+}
+
+.threecontainer {
+    border: solid;
+    border-color: aqua;
+}
+
+.screen {
+    border: solid;
+    height: 150px;
+
+}
+
+.clearandenter {
+    border: solid;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+#enterbtn {
+    height: 50px;
+    width: 100px;
+}
+
+#clearbtn {
+    height: 50px;
+    width: 100px;
+}
+
+.numbers {
+    border: solid;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.numberbtn {
+    height: 50px;
+    width: 50px;
+}
+
+.firstrow {
+    display: flex;
+    width: 400px
+}
